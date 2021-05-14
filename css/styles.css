@@ -1,3 +1,23 @@
+/* NORMALIZE*/
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 /*BODY SECTION*/
 .body {
     font-family: 'Roboto', sans-serif;
