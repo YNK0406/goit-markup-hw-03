@@ -325,10 +325,11 @@ img {
         }
         
         .address {margin-top: 20px;    }
-        .address-list {}
+        .address-list {font-style: normal;}
         .address-item:not(:last-child){
             margin-bottom: 9px;}
         .address-map-link {
+            font-style: normal;
             font-weight: normal;
         font-size: 14px;
         line-height: 1.71;
