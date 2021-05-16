@@ -45,7 +45,7 @@ img {
 /* HEADER SECTION*/
         .header {
             background: #FFFFFF;
-            width: 1600px;    
+          /*  width: 1600px; */   
             border-bottom: 1px solid #ECECEC; 
             padding-top: 32px;
             padding-bottom: 32px;
@@ -147,7 +147,7 @@ img {
         }
 /*MAIN SECTION*/
 .main {
-    width: 1600px;
+  /*  width: 1600px;*/
     
     
 }
@@ -179,6 +179,7 @@ img {
         letter-spacing: 0.06em;
         cursor: pointer;
         color: #FFFFFF;
+        padding: 10px 32px 10px 32px;
        
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -295,9 +296,12 @@ img {
         /*.team-item:not(:last-child){
             margin-right: 30px;
         }*/
-
+        .team-item-card{
+            padding-top: 30px;
+            padding-bottom: 30px;
+}
         .team-img {
-            margin-bottom: 30px;
+         /*   margin-bottom: 30px;*/
         }
         .name-tile {
             margin-bottom: 10px;
@@ -313,12 +317,12 @@ img {
             line-height: 1.18;
             text-align: center;
             letter-spacing: 0.03em;
-            margin-bottom: 30px;
+            /*margin-bottom: 30px;*/
             color: #757575;
         }
 /*FOOTER SECTION*/
         .footer {
-            width: 1600px;
+           /*width: 1600px;*/
             padding-top: 60px;
             padding-bottom: 60px;
             background: #2F303A;
@@ -329,7 +333,7 @@ img {
         .address-item:not(:last-child){
             margin-bottom: 9px;}
         .address-map-link {
-            font-style: normal;
+           
             font-weight: normal;
         font-size: 14px;
         line-height: 1.71;
@@ -362,14 +366,14 @@ img {
 /*PORTFOLIO SECTION*/ 
 /*FILTER SECTION*/
         .portfolio {
-            width: 1600px;
+ /*           width: 1600px;*/
             padding-top: 94px;
             padding-bottom: 94px;
         }
         .filter-list {
             display: flex;
            justify-content: center;
-           margin-bottom: 30px;
+           margin-bottom: 50px;
         }
         .filter-item:not(:last-child) {
             margin-right: 8px;
