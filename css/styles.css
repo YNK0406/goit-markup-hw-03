@@ -143,11 +143,7 @@ img {
         text-decoration: none;
         }
 /*MAIN SECTION*/
-        .main {
-  
-    
-    
-}
+        .main {}
 /*HERO SECTION*/
         .hero {
             padding-top: 200px;
@@ -328,7 +324,6 @@ img {
         .address-item:not(:last-child){
             margin-bottom: 9px;}
         .address-map-link {
-            font-style: normal;
             font-weight: normal;
         font-size: 14px;
         line-height: 1.71;
